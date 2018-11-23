@@ -59,7 +59,7 @@
             <exclude>**/*FunctionalTest.java</exclude>
             <exclude>**/*ManualTest.java</exclude>
           </excludes>
-          <useSystemClasspath>false</useSystemClasspath>
+          <useSystemClassLoader>false</useSystemClassLoader>
           <systemPropertyVariables>
             <buildDirectory>${project.build.directory}</buildDirectory>
           </systemPropertyVariables>
@@ -98,7 +98,7 @@
           <excludes>
             <exclude>**/*$*</exclude><!-- Exclude inner classes -->
           </excludes>
-          <useSystemClasspath>false</useSystemClasspath>
+          <useSystemClassLoader>false</useSystemClassLoader>
           <systemPropertyVariables>
             <buildDirectory>${project.build.directory}</buildDirectory>
           </systemPropertyVariables>
